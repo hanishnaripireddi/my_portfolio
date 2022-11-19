@@ -1,0 +1,34 @@
+#about{
+    padding: 4rem;
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    align-items: center;
+    
+    
+}
+
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    
+}
+
+.about__content article{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+    
+}
+
+.skill-link {
+    position: relative;
+    padding: 0.4rem; 
+    padding-top: 1rem;
+}
+
+
+

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* :root{
+    --primary-color:;
+    --light-mode-bg:;
+    --dark-mode-bg:;
+    --text-light:;
+    --text-dark:;
+} */
+
+
+*,*::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Josefin sans';
+    min-height: 100vh;
+    overflow: hidden;
+    
+}
+
+
+
+#toggleDark{
+    font-size: 1rem;
+    display: flex;
+    justify-content: right;
+}
+
+.header{
+    position: absolute;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgb(230, 227, 227);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-right: 1rem;
+}
+
+.nav{
+    
+    width: auto;
+    margin-right: 1rem;
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 2rem;
+}
+
+.nav .link{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+
+
+h1{
+    /* box-shadow: .6rem 0 0 #05ffa3; */
+    font-family: 'Josefin sans', cursive;
+    font-weight: 400;
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: caret .5s step-end infinite alternate,type 5s steps(7,end);
+}
+
+/* @ketframes type {
+    0%{
+        width:0;
+    }
+} */
+
+/* @keyframes caret{
+    50%{
+        box-shadow: .6rem 0 0 transparent;
+    }
+}
+
+@use postcss-present-env{
+    stage:0;
+    autoprefixer:{
+        grid:true;
+    }
+    browsers:[
+        "last 1 chrome versions",
+    ]
+} */
