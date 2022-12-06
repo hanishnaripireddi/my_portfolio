@@ -36,3 +36,13 @@ input:focus{
     height: 6rem;
 }
 
+.contactsection hr{
+    bottom: none;
+    border-style: hidden;
+    outline: none;
+    border-left:    2px solid var(--color-primary);
+    width: 1px;
+    height: 16rem;
+    
+    
+}

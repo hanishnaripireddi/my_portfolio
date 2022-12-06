@@ -18,11 +18,12 @@ const Contact = () => {
             <br />
             <a href="https://www.instagram.com/koushik_hanish/"><RiInstagramFill/>Instagram</a>
             <br />
-            <a href=""><BsLinkedin/>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/hanishnaripireddi/"><BsLinkedin/>LinkedIn</a>
 
             <br />
             <a href="https://github.com/hanishnaripireddi"><BsGithub/>GitHub</a>
           </div>
+          <hr className="contact_divider"/>
           <div className="contactright">
             <form action="mailto:hanishnaripireddi@gmail.com">
               <input type="text" placeholder="Your name?" />

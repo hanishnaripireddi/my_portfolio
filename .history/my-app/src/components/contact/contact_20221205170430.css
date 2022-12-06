@@ -1,0 +1,43 @@
+.contactsection{
+    height: 70vh;
+    display: flex;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    
+}
+
+input{
+    background-color: var(--color-bg);
+    outline: none;
+    border-style: hidden;
+    border: 1px solid var(--color-light);
+    height: 1rem;
+    width: 20rem;
+    border-radius: 5px;
+    padding: 1rem;
+
+    color: var(--color-primary);
+
+}
+
+input:focus{
+    border: 2px solid var(--color-primary);
+}
+
+.mail_message{
+    height: 6rem;
+}
+
+.contactsection hr{
+    color: var(--color-primary);
+    width: ;
+    
+}
