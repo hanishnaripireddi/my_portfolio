@@ -11,6 +11,7 @@ const Skills = () => {
       <h2>Skills</h2>
       
       <Swiper
+      modules={[Pagination]}
       spaceBetween={40}
       slidesPerView={1}
       navigation

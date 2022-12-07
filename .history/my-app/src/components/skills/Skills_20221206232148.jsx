@@ -11,13 +11,19 @@ const Skills = () => {
       <h2>Skills</h2>
       
       <Swiper
-      spaceBetween={40}
-      slidesPerView={1}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
+      effect={"coverflow"}
+      grabCursor={true}
+      centeredSlides={true}
+      slidesPerView={"auto"}
+      coverflowEffect={{
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      }}
+      pagination={true}
+      className="mySwiper"
       >
         <SwiperSlide>
         <div className="designer">
@@ -101,15 +107,7 @@ const Skills = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-        <div>
-          <article>
-            <h1>Dev tools</h1>
-            <div className="card-content">
-              <h5>tools:</h5>
-              <ul><li>git</li><li>GitHub</li><li>Postman</li><li>Chrome Dev tools</li></ul>
-            </div>
-          </article>
-        </div>
+          
         </SwiperSlide>
 
       </Swiper>

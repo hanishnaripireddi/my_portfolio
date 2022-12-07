@@ -11,13 +11,14 @@ const Skills = () => {
       <h2>Skills</h2>
       
       <Swiper
+      modules={[Pagination]}
       spaceBetween={40}
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
+      onSlideChange={() => console.log("slide change")
       >
         <SwiperSlide>
         <div className="designer">
